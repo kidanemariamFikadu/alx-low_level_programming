@@ -3,7 +3,7 @@
 /**
  * main- print all 2 digit numbers
  *
- * Returns: always 0
+ * Returns: Always 0
  */
 int main(void)
 {
