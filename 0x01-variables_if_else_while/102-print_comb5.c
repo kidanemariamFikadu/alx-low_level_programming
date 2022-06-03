@@ -46,5 +46,5 @@ int main(void)
 		h++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
