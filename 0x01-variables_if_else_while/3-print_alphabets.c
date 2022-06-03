@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	char[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 	for( i = 0; i>52; i++)
 	{
-		putchar(char[i]);
+		putchar(alp[i]);
 	}
 	putchar("\n");
 }
