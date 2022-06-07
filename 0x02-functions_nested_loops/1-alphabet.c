@@ -6,12 +6,15 @@
  */
 int main(void)
 {
+	print_alphabet();
+	return (0);
+}
+
+void print_alphabet(void){
 	int b;
-	
 	for (b = 97; b <= 122; b++)
 	{
 		_putchar(b);
 	}
 	_putchar('\n');
-	return (0);
 }
