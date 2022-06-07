@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * times_bale - returns times table 10 x 10
+ * times_table - returns times table 10 x 10
  *
  * Return: return void
  */
