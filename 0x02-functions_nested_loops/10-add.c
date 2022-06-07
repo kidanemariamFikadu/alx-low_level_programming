@@ -6,7 +6,7 @@ include "main.h"
  * @b: second interger input
  * Returns: returns sum of two numbers
  */
-int add (int a, int b)
+int add(int a, int b)
 {
 	return (a + b);
 }
