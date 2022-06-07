@@ -4,8 +4,7 @@
  * main - print all lowercase alphabet
  * Return: Always 0 
  */
-
-void main(void)
+int main(void)
 {
 	int b;
 	
@@ -14,4 +13,5 @@ void main(void)
 		_putchar(b);
 	}
 	_putchar('\n');
+	retutn (0);
 }
