@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * times_table - returns multiplication table 10 X 10
+ * times_table - Prints the 9 times table
  * Return: returns void
  */
 void times_table(void)
