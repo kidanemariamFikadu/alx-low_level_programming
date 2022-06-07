@@ -6,15 +6,15 @@
  * @c: the character in ASCII code
  * Return: always 0
  */
-int _islower(int c)
+int _islower(char c)
 {
-	if (c < 96 && c > 123)
+	if(c >= 'a' && c <= 'z')
 	{
-		return (1);
+		return (0);
 	}
 	else
 	{
-		return (0);
+		return (1);
 	}
 	_putchar('\n');
 }
