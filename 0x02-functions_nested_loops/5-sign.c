@@ -3,10 +3,10 @@
 /**
  * print_sign - prints the sign of integer
  *
- * @c: the integer input
+ * @n: the integer input
  * Return: always 0
  */
-int print_sign(int c)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
