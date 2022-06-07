@@ -4,6 +4,7 @@
  * main - prints '_putchar'
  * Return: Always 0
  */
+
 int main(void)
 {
 	char c[8] = {95, 112, 117, 116, 99, 104, 97, 114};
