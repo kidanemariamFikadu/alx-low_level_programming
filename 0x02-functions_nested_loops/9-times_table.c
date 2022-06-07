@@ -1,9 +1,8 @@
 #include "main.h"
 
 /*
- * times_table - returns times table 10 x 10
- *
- * Return: return void
+ * times_table - returns multiplication table 10 X 10
+ * Return: returns void
  */
 void times_table(void)
 {
