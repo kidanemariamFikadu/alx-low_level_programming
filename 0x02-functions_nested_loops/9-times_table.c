@@ -1,7 +1,6 @@
 #include "main.h"
 
-/*
- *
+/**
  * times_table - Prints time tabkes
  * Return: returns void
  */
