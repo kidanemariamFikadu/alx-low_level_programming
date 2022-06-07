@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
- * main: prints out _putchar 
+ * main - prints out _putchar
  *
- * Return- Always 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -14,5 +14,6 @@ int main(void)
 	{
 		_putchar(c[count]);
 	}
+	_putchar('\n');
 	return (0);
 }
