@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * _abs - prints the sign of integer
+ * _abs - returns the absolute value of integer
  *
- * @n: the integer input
+ * @n: the interger input
  * Return: always 0
  */
 int _abs(int n)
 {
-	if (n >= 0)
-	{
-		return (n);
-	}
-	else if (n < 0)
+	if(n < 0)
 	{
 		return (n * -1);
+	}
+	else
+	{
+		return (n);
 	}
 }
