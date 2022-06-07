@@ -15,6 +15,5 @@ int main(void)
 	{
 		_putchar(c[count]);
 	}
-	_putchar("\n");
 	return (0);
 }
