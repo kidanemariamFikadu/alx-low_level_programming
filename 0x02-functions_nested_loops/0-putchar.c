@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char c[7] = {112, 117, 116, 99, 104, 97, 114};
+	char c[7] = {95, 112, 117, 116, 99, 104, 97, 114};
 	int count;
 
 	for (count = 0; count < 7; count++)
