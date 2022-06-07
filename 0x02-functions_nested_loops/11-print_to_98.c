@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - print numbers upto 98
- * @n: input integer to count 
+ * @n: input integer to count
  * Return: void
  */
 void print_to_98(int n)
