@@ -7,11 +7,10 @@
  */
 int main(void)
 {
-	char c[] = {97, 112, 117, 116, 99, 104, 97, 114};
-	int count, loop;
+	char c[7] = {112, 117, 116, 99, 104, 97, 114};
+	int count;
 
-	loop = sizeof(c) / sizeof(int);
-	for (count = 0; count < loop; count++)
+	for (count = 0; count < 7; count++)
 	{
 		_putchar(c[count]);
 	}
