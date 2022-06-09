@@ -8,15 +8,14 @@
  */
 void print_triangle(int n)
 {
-	int i, j;
+	int i, j, k;
 
 	for (i = 0; i < n; i++)
 	{
-		for (j = i; j < (n - i); j++)
+		for (j = i; j < n; j++)
 			_putchar(' ');
-		for (j--; j < n; j++)
+		for(k = 0; k < i; k++)
 			_putchar(35);
-		if (i < (n - 1))
-			_putchar('\n');
+		_putchar('\n');
 	}
 }
