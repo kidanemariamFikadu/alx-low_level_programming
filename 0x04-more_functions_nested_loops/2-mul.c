@@ -4,7 +4,7 @@
  * mul - multiply two intergers
  *
  * @a: first input
- * @b: second input 
+ * @b: second input
  *
  * Return: the multiplication result
  */
