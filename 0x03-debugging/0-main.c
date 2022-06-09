@@ -4,6 +4,7 @@
  * main - check code
  * Return: always o
  */
+
 int main(void)
 {
 	int i;
