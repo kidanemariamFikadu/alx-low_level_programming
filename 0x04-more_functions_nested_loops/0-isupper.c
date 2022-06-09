@@ -5,7 +5,7 @@
  * @c: input character
  * Return: 1 if it is uppercase, 0 if it is other case
  */
-int _uppercase(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
