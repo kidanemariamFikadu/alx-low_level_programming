@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	long int j, i;
+	long int i, j;
 
 	i = 612852475143;
-	for (i = 2; j <= i; j++)
+	for (j = 2; j <= i; j++)
 	{
 		if (i % j == 0)
 		{
