@@ -11,7 +11,7 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	tot = atot = 0;
-	while (tot <= 40000000)
+	while (tot <= 4000000)
 	{
 		tot = n1 + n2;
 		n1 = n2;
