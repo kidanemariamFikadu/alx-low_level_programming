@@ -8,7 +8,7 @@
 
 void puts_half(char *s)
 {
-	int c = 0, i, j;
+	int c = 0, i;
 
 	while (c >= 0)
 	{
@@ -16,14 +16,14 @@ void puts_half(char *s)
 			break;
 		c++;
 	}
-	if (c % 2 ==1)
-		i = c /2;
+	if (c % 2 == 1)
+		i = c / 2;
 	else
-		i = (c -1) / 2;
+		i = (c - 1) / 2;
 
-	for (j = i; j <= c; j++)
+	for (i++; i <= c; i++)
 	{
-		_putchar(s[j]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
 }
