@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strlength - gets string length
+ * _strlen - gets string length
  * @s: string input
  * Return: integer
  */
 
-int _strlength(char *s)
+int _strlen(char *s)
 {
 	int count = 0;
 	char ch;
