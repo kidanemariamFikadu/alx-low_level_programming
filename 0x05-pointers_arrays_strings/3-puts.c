@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void _puts(*s)
+void _puts(char *s)
 {
 	int a = 0;
 
