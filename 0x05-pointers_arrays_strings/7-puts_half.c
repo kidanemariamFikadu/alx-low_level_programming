@@ -16,7 +16,10 @@ void puts_half(char *s)
 			break;
 		c++;
 	}
-	i = c / 2;
+	if (c % 2 ==1)
+		i = c /2;
+	else
+		i = (c -1) / 2;
 
 	for (j = i; j <= c; j++)
 	{
