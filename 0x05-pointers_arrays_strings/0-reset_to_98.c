@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - will take int address and updated the value to 98
- * $n: integer pointer
+ * @n: integer pointer
  * Return: void
  */
 
