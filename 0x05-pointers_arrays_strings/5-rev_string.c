@@ -17,13 +17,14 @@ void rev_string(char *s)
 			break;
 		c++;
 	}
+	str = s;
 
 	for (i = 0; i < (c - 1); i++)
 	{
 		for (j = i + 1; j > 0; j--)
 		{
 			temp = *(s + j);
-			*(s + j) = *(s + (j - i));
+			*(str + j) = *(str + (j - i));
 			*(str + (j - 1)) = temp;
 		}
 	}
