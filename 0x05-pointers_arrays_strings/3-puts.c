@@ -18,6 +18,6 @@ void _puts(char *s)
 			break;
 		}
 		_putchar(s[a]);
-		count++;
+		a++;
 	}
 }
