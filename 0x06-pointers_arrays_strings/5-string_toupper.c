@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * string_toupper - chage all lowercase letter of a string
+ * @s: input string
+ * Return: the upper case string
+ */
+
+char *string_toupper(char *s)
+{
+	int count = 0;
+
+	while ((*(s + count) >= 97) && (*(s + count) <= 122))
+	{
+		*(s + count) = *(s + count) - 32;
+		count++;
+	}
+
+	return (s);
+}
