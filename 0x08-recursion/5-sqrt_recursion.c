@@ -1,4 +1,4 @@
-#include "main,h"
+#include "main.h"
 
 /**
  * power_operation - calculates square root of n
