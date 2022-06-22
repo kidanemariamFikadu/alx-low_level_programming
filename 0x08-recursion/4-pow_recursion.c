@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - calculates x power y
- * @x: inbut for the base 
+ * @x: inbut for the base
  * @y: input for the power
  * Return: power of x and y
  */
