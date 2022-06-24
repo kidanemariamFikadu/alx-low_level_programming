@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - print the multiplication result of 2 numbers or prints error if two argumrnts are not provided
+ * main - print the multiplication result of 2
+ * numbers or prints error if two argumrnts are not provided
  * @argc: number of commandline arguments
  * @args: array of commandline arguments
  * Return: 0
