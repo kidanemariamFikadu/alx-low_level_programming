@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * strdup - duplicate string array to new location
+ * _strdup - duplicate string array to new location
  * @str: character array pointer
  * Return: new memory location
  */
