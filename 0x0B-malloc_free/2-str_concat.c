@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 		cpdstr[k] = s1[k];
 
 	limit = j;
-	for (j = 0; j <= limit; k++; j++)
+	for (j = 0; j <= limit; k++, j++)
 		cpdstr[k] = s2[j];
 
 	return (cpdstr);
