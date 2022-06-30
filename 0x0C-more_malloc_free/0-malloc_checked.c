@@ -4,7 +4,7 @@
 /**
  * malloc_checked - allocates memory
  * @b: amount of bytes
- * Return pointer or 98 when no space
+ * Return: pointer or 98 when no space
  */
 void *malloc_checked(unsigned int b)
 {
