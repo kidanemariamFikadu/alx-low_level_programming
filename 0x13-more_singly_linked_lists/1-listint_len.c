@@ -5,7 +5,7 @@
  * @h: linked list input
  * Return: number of nodes
  */
-size_t listint_len(const listinit_t *h)
+size_t listint_len(const listint_t *h)
 {
 	size_t nnodes = 0;
 
